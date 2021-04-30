@@ -1,0 +1,239 @@
+.uk-panel img{
+  width:100%;
+  max-height:750px;
+  }
+  .uk-position-center-left,.uk-position-center-right{
+    font-size: 30px;
+  }
+  .top_brand li img{
+    padding: 0 15px;
+    max-height: 400px;
+
+    ;
+  }
+  .perfum_img{
+    max-height: 300px;
+    border-radius: 10px;
+
+  }
+  /* body{
+    background-color: black;
+  } */
+
+  .uk-slider-nav{
+    position:absolute;
+    transform: rotate(90deg);
+    top:100px;
+    right:0px;
+    float:left;
+    font-weight:bold;
+  
+
+  }
+
+
+  @media (max-width: 768px) {
+  .uk-slider-nav{
+    position:relative;
+    transform: rotate(00deg);
+    top:00px;
+    right:0px;
+    float:none;
+    font-weight:bold;
+  }
+
+  }
+
+  
+.uk-dotnav>*>* {
+  background:#DAA520;
+  width:10px;
+}
+
+.storeblog{
+position: absolute;
+ top:50%;
+ left:0px
+}
+
+@media (max-width: 768px) {
+
+  .storeblog{
+    position: relative;
+     top:0%;
+     left:0px
+    }
+}
+
+.store-img li{
+  opacity: 0.3;
+  z-index: 10;
+  transition-duration: 0.5s;
+}
+
+
+
+.store-img .uk-active:hover{
+  opacity: 1;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+
+.video:hover .video_arrow{
+  color: #DAA520;
+  background-color: aliceblue;
+}
+
+.about-font{
+  font-family: 'Dancing Script', cursive;
+  font-size: 56px;
+}
+
+.bounce_img:hover{
+  -webkit-animation-name:tada;
+  animation-name:tada;
+  -webkit-transform-origin:center bottom;
+  transform-origin:center bottom;
+  cursor:pointer
+ }
+ .border_img_content{
+   border-left: solid 2px #DAA520;
+   border-top: solid 2px #DAA520;
+ }
+
+ .bounce_img_container{
+  width:140px;
+  left:-70px;
+  position: relative;
+  display: table-cell;
+ }
+ .bounce_content{
+  display: table-cell;
+  position: relative;
+  left:-70px ;
+}
+ @media (max-width: 768px) {
+  .bounce_img_container{
+    width:100px;
+  }
+  .bounce_img_container,.bounce_content{
+    
+    left:0px;
+  
+   }
+ }
+
+
+
+ .about_us_container{
+   padding: 100px 0px;
+   border-radius: 10px;
+   color: black;
+   background: rgb(192,197,203);
+   background: linear-gradient(90deg, rgba(192,197,203,1) 0%, rgba(253,253,253,1) 49%, rgba(192,197,203,1) 100%);
+ }
+
+ .our_product_container{
+   background-color: #fff;
+  color: #DAA520;
+  }
+  .our_product_collections,.p{
+    color: #DAA520;
+  }
+
+
+  .effect-cls:after {
+    content: "";
+    position: absolute;
+    background: url(http://instylesunglass.com/Html/images/top.png);
+    top: 0px;
+    width: 100%;
+    height: 110px;
+    z-index: 1;
+    background-repeat: no-repeat;
+ }
+
+ .effect-cls::before {
+  content: "";
+  position: absolute;
+  background: url(http://instylesunglass.com/Html/images/back.png);
+  bottom: -50px;
+  width: 100%;
+  height: 110px;
+  z-index: 1;
+  background-repeat: no-repeat;
+}
+
+.img_container_blog{
+  position: relative;
+}
+
+.img_container_blog:hover{
+  cursor: pointer;
+
+}
+
+.img_container_blog:hover > .sub_conatiner{ 
+  display: inline;
+ }
+.sub_conatiner{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  display: none;
+  border-radius: 10px;
+}
+
+.view_product,.product_price{
+  background-color: #DAA520;
+  color: black;
+}
+
+.fa-circle{
+  /* -webkit-animation-name:bounce;
+  animation-name:bounce; */
+  animation: fadeOut 5s infinite ease-in-out;
+  -webkit-transform-origin:center bottom;
+  font-size: 10px;
+  cursor: pointer;
+  transform-origin:center bottom;
+  animation-iteration-count:infinite;
+}
+
+.fa-circle:nth-child(1){
+animation-delay: 1s;
+}
+
+.fa-circle:nth-child(2){
+  animation-delay: 2s;
+  }
+
+  .fa-circle:nth-child(3){
+    animation-delay: 3s;
+    }
+
+  .banner_imgs{
+  max-height: 500px;
+  width: 100%;
+  }
+
+  .exclusive_imgs{
+      border: solid 2px #fff;
+  }
+
+  .about_container{
+    color: #fff;
+  }
+  .dropdown-item{
+    font-weight: 999;
+  }
+/* header css */
+
+

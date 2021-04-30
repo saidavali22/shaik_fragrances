@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  position: relative;
+
+}
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  transition: all 0.3s ease-in-out;
+  transform: translateZ(0);
+  max-height: 300px;
+}
+
+.middle {
+  /* transition: .5s ease; */
+  opacity: 0;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  /* transform: translate(-0%, -0%);
+  -ms-transform: translate(-0%, -0%);
+  text-align: center; */
+  
+}
+
+.container:hover .image {
+  opacity: 0.3;
+  cursor: pointer;
+ 
+}
+.image:hover{
+  transform: scale(1.04);
+}
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+ 
+  color: white;
+ 
+  padding: 16px 32px;
+}
+
+.text .fab{
+  font-size:25px;
+  color: aliceblue;
+}
+
+.fa-facebook-f:hover{
+color: #4267B2;
+}
+
+.fa-twitter:hover{
+  color: #1DA1F2;
+  }
+
+  /* .bg-circle1{
+    clip-path: circle(50% at 50% 50%);
+    background-color: blue;
+  } */
+
+
+  /* footer css */
+
+  
+.footer-nav{
+  list-style:none;
+}
+
+.footer-nav li{
+ padding:5px 0px;
+}
+
+.footer-nav li a{
+color:#fff;
+text-decoration:none;
+}
+
+.footer-contact {
+    padding: 7px 0;
+  
+}
+
+.footer-contact i{
+  display: table-cell;
+    padding: 0 12px 0 0;
+   
+    vertical-align: left;
+    font-size: 18px;
+}
+
+.footer-contact span {
+    display: table-cell;
+}
+
+.footer-contact span a {
+  color:#fff
+
+
+}
+
+.footer-menu a{
+  color:#fff
+}
+
+.footer-menu a:before {
+    display: inline-block;
+    margin-right: 7px;
+   color:#fff;
+    content: "\f105";
+    font-family: FontAwesome;
+}  
+
+.filter_container{
+  max-height: 900px;
+  position:sticky;
+  top: 100px;
+}
+.brand_name{
+  border-bottom: solid 2px #fff;
+}
+ul{
+  list-style: none;
+}
+
+.exlusive_collection{
+  font-family: 'Teko', sans-serif; 
+  font-size:60px;
+}
+
+.nav-item{
+  font-size: 20px;
+}
