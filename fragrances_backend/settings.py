@@ -135,7 +135,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticdataa')
 
 # CORS_ORIGIN_WHITELIST = ["http://localhost:3000","localhost" ,"127.0.0.1"]
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1", "127.0.0.1:5500" ,"https://eanddfragrances.herokuapp.com" ,"eanddfragrances.herokuapp.com" ,"https://eandfra.herokuapp.com/" ,"eandfra.herokuapp.com"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "http://127.0.0.1:5500" "127.0.0.1:5500" ,"https://eanddfragrances.herokuapp.com" ,"eanddfragrances.herokuapp.com" ,"https://eandfra.herokuapp.com/" ,"eandfra.herokuapp.com"]
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'

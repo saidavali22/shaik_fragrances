@@ -234,6 +234,22 @@ animation-delay: 1s;
   .dropdown-item{
     font-weight: 999;
   }
+  .perfumlist_container{
+    margin: 0px 20px;
+  }
+  @media screen and (min-width : 768px) and (max-width : 1450px) {
+.perfumlist_container{
+  margin: 0px 16px;
+}
+  }
+
+  .product_lines{
+    height: 5px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(218,165,32,0.8914916308320203) 100%);
+    margin: 5px 0px;
+
+  }
 /* header css */
 
 
