@@ -104,7 +104,7 @@ const Perfumeslist=()=>{
 })
     return(
         <div style={{position:"relative"}}>
-        <section className="our_product_container effect-cls">
+        <section className="our_product_container">
               <div className="pt-1">
                <div className="product_lines"></div>
                <div className="product_lines"></div>
