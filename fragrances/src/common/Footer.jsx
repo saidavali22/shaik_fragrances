@@ -25,13 +25,13 @@ const Footer=()=>{
 <div>
   <h3 className="text-light">USA OFFICE</h3>
   <div className="dropdown-divider"></div>
-  <p>Charlotte Technologies LLC.</p>
+  <p>Instyle Perfumes</p>
   <ul className="footer-nav" style={{listStyle:"none"}}>
   <li className="footer-contact"><i class="fa fa-home"></i><span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span></li>
 
   <li className="footer-contact"><i class="fa fa-globe"></i><span><a href="mailto:info@nstylefragrances.com">info@nstylefragrances.com</a></span></li>
 
-  <li className="footer-contact"><i class="fa fa-phone"></i><span>+91 9876543210 / +9876543210</span></li>
+  <li className="footer-contact"><i class="fa fa-phone"></i><span>+91 9876543210</span></li>
   <li className="footer-contact"><i class="fa fa-map-marker"></i><span><a href="#" target="_blank">View our map</a></span></li>
   </ul>
 </div>
@@ -41,11 +41,11 @@ const Footer=()=>{
 <div>
   <h3 className="text-light">INDIA OFFICEE</h3>
   <div className="dropdown-divider"></div>
-  <p>Charlotte Technologies LLC.</p>
+  <p>Explore And Do Technologies</p>
   <ul className="footer-nav" >
   <li className="footer-contact"><i class="fa fa-home"></i><span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span></li>
 
-  <li className="footer-contact"><i class="fa fa-globe"></i><span><a href="mailto:info@charlottetechnologies.com">info@charlottetechnologies.com </a></span></li>
+  <li className="footer-contact"><i class="fa fa-globe"></i><span><a href="mailto: info@exploreanddo.com"> info@exploreanddo.com </a></span></li>
 
   <li className="footer-contact"><i class="fa fa-phone"></i><span>+91 9876543210 / +9876543210</span></li>
   <li className="footer-contact"><i class="fa fa-map-marker"></i><span><a href="https://goo.gl/maps/uwkjPRsd19NHE89y5" target="_blank">View our map</a></span></li>

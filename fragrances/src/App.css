@@ -86,8 +86,9 @@ position: absolute;
 }
 
 .about-font{
-  font-family: 'Dancing Script', cursive;
-  font-size: 56px;
+  font-family: 'Orelega One', cursive;
+  font-size: 54px;
+  text-align: center;
 }
 
 .bounce_img:hover{
@@ -143,7 +144,7 @@ position: absolute;
   }
 
 
-  .effect-cls:after {
+  /* .effect-cls:after {
     content: "";
     position: absolute;
     background: url(http://instylesunglass.com/Html/images/top.png);
@@ -163,7 +164,7 @@ position: absolute;
   height: 110px;
   z-index: 1;
   background-repeat: no-repeat;
-}
+} */
 
 .img_container_blog{
   position: relative;
@@ -250,6 +251,7 @@ animation-delay: 1s;
     margin: 5px 0px;
 
   }
+
 /* header css */
 
 

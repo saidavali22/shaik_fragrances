@@ -4,19 +4,32 @@ function Header(){
      <div className="text-white">
        
 <div className="container-fluid">
-<div className="mx-auto text-center">		
-		<a href="#">
+
+  <div className="row m-0 pt-2">
+   <div className="col-xl-4">
+   <i><i class="fas fa-phone-alt pl-4"></i>   +91 9876543210 </i>   <i className="pl-4"> <i class="fas fa-envelope"></i>  info@nstylefragrances.com </i> 
+
+   </div>
+   <div className="col-xl-4 mx-auto text-center">
+   <a href="#">
 			<img src="/static/Logo/logo_shot.png" className="p-0"  alt="Instyle Fragrances" style={{width:"250px",height:"170px"}} />
 		</a>
-	</div>
-<nav class="navbar navbar-header navbar-expand-lg">
+   </div>
 
-  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+   <div className="col-xl-4">
+   <b className="float-right pr-4 " style={{fontSize:"20px"}}>
+ <i class="fab fa-instagram px-1"></i>   <i class="fab fa-linkedin-in px-1"></i> <i class="fab fa-twitter px-1"></i> <i class="fab fa-facebook-f"></i>
+ </b> 
+</div>
+  </div>
+<nav class="navbar navbar-header navbar-expand-lg text-center">
+
+  <button className="navbar-toggler bg-white text-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
   
 
-  <div className="collapse navbar-collapse" id="navbarSupportedContent">
+  <div className="collapse navbar-collapse mx-auto" id="navbarSupportedContent">
 
 <ul className="navbar-nav mx-auto text-light">
 	<li className="nav-item nav-link"> <Link className="text-light" to='/'>Home </Link></li>
@@ -36,9 +49,6 @@ function Header(){
 	<li className="nav-item nav-link"> About </li>
     <li className="nav-item  nav-link" >Cart</li>
 </ul>
-
-
-
   </div> 
 </nav>
 </div>

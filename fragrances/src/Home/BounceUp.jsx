@@ -8,7 +8,7 @@ const BounceUp=()=>{
                 <div className="row m-0 h-100">
                     <div className="col-xl-6 col-md-6 p-0">
                         <div>
-                           <img src="/static/bounceup/bounce_up.jpg" alt="fragrance explore and do technologies pvt ltd" className="w-100" style={{maxHeight:"450px"}} />
+                           <img src="/static/bounceup/bounce_up.jpgx`" alt="fragrance explore and do technologies pvt ltd" className="w-100" style={{maxHeight:"450px"}} />
                         </div>
                     </div>
                     <div className="col-xl-6 text-light  col-md-6 p-0 border_img_content">

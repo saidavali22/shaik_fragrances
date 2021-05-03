@@ -103,13 +103,10 @@ const Perfumeslist=()=>{
     )
 })
     return(
-       
-        <section className="our_product_container">
-              <div className="pt-1">
-               <div className="product_lines"></div>
-               <div className="product_lines"></div>
-               <div className="product_lines"></div>
-             </div>  
+        
+      <div style={{position:"relative"}}>
+        <section className="our_product_container product_paper_tear">
+ 
           <div className="row m-0 py-5">
               <div className="col-xl-10  mx-auto">
                <div className="row m-0 mx-auto">
@@ -124,12 +121,9 @@ const Perfumeslist=()=>{
                </div>
              </div>
 
-              <div className="pb-1">
-               <div className="product_lines"></div>
-               <div className="product_lines"></div>
-               <div className="product_lines"></div>
-             </div> 
+
         </section>
+        </div>
     
       
     )
